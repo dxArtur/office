@@ -30,4 +30,12 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  textarea {
+    resize: none;
+  }
+
+  a {
+    cursor: pointer;
+  }
 }
