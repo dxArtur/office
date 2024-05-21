@@ -67,7 +67,7 @@ export default function Home() {
       <h2 className="mt-10 text-slate-100 font-bold text-2xl border border-slate-100 p-4 rounded">Entre em contato</h2>
         <div className="border border-slate-600 rounded bg-gray-900 p-10 text-slate-100 space-y-4 gap-y-4 ">
           <h2 className="text-1xl font-semibold text-slate-100">Envie um email</h2>
-          <form className="grid min-w-screen pb-4 border-b border-slate-600 gap-y-1" action="mailto:daniel.arturjsb@gmail.com" method="post" encType="text/plain">
+          <form className="grid min-w-screen pb-4 border-b border-slate-600 gap-y-1" action="mailto:comercial@g10solution.com.br" method="post" encType="text/plain">
               <label  className="font-light" htmlFor="name">Nome completo:</label>
               <input  className="font-light bg-gray-600 rounded p-1 border border-slate-400 " type="text" id="name" name="name" required/>
               
