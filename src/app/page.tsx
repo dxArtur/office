@@ -1,16 +1,5 @@
 'use client'
-import { useEffect, useRef, useState } from "react"
-import nodemailer from "nodemailer"
-import Link from "next/link"
-import ServicePage from "./pages/servicePage"
-import SuportPage from "./pages/suportPage"
-import PricingPage from "./pages/pricingPage"
-import ContactFormPage from "./pages/contactFormPage"
-import HomePage from "./pages/homePage"
 import Footer from "./components/footer"
-import Navbar from "./components/Navbar"
-import ServicesPage from "./pages/servicePage"
-import CandidatePage from "./pages/candidatePage/page"
 import InitialPage from "./pages/InitialPage"
 
 
