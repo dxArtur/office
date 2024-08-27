@@ -18,6 +18,7 @@ export default function CandidatePage () {
                 <img
                   src="https://images.stockcake.com/public/6/3/9/6391ca86-7e50-4ebb-babc-4270b2f16f99_large/teacher-engaging-students-stockcake.jpg"
                   alt="Foto do Candidato"
+                  loading="lazy"
                   className="w-full h-64 object-cover rounded-lg shadow-md"
                 />
                 <div className="w-full shadow-md rounded-lg border p-4">

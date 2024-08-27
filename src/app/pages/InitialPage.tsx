@@ -72,7 +72,7 @@ export default function InitialPage () {
             >
               <option value="" disabled>Selecione um cargo</option>
               {OfficeHolder.map(office => (
-                <option className='text-gray-600' id={office}>{office}</option>
+                <option className='text-gray-600' key={office} value={office}>{office}</option>
               ))}
             </select>
           </div>

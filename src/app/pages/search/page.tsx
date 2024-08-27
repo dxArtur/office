@@ -12,6 +12,7 @@ export default function Search () {
                 <img
                   src="https://images.stockcake.com/public/6/3/9/6391ca86-7e50-4ebb-babc-4270b2f16f99_large/teacher-engaging-students-stockcake.jpg"
                   alt="Foto do Candidato"
+                  loading="lazy"
                   className="w-20  h-20 object-cover rounded shadow-md"
                 />
                 <div>
