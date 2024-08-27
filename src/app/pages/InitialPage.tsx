@@ -1,15 +1,30 @@
 
 import Link from 'next/link'
-import router from 'next/router';
-import { useEffect, useRef, useState } from 'react'
+import { FormEvent, useEffect, useState } from 'react'
+
+
+interface State {
+    id: number;
+    sigla: string;
+    nome: string;
+  }
+
+  interface City {
+    id: number;
+    nome: string;
+  }
 
 export default function InitialPage () {
     const [office, setOffice] = useState([]);
-    const [states, setStates] = useState([]);
-    const [cities, setCities] = useState([]);
+    const [states, setStates] = useState<State[]>([]);
+    const [cities, setCities] = useState<City[]>([]);
     const [selectedOffice, setSelectedOffice] = useState('')
     const [selectedState, setSelectedState] = useState('')
     const [selectedCity, setSelectedCity] = useState('')
+
+    
+
+
 
     
 
@@ -35,7 +50,7 @@ export default function InitialPage () {
     }
   }, [selectedState]);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log({ selectedState, selectedCity, selectedOffice });
   }
